@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagen" href="Assets/icono.png">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body background="Assets/fondo.webp" alt="fondo">
+    <header>
+            <img src="Assets/Logo.png" alt="Logo" class="Logo">    
+    </header>
+    <main>
+        <section class="Columna">
+            <textarea class="Texto_ingresado" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="Caja_aviso">
+                <img src="Assets/Vector.png" alt="Imagen Aviso" >
+                <p class="Texto_aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="Botones">
+                <button type="boton_1" class="Encriptar">Encriptar</button>
+                <button type="boton_2" class="Desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="Columna2">
+           <div class="Caja_columna">
+                <img src="Assets/Muñeco.png" alt="Imagen Muñeco" class="Muñeco">
+                <p class="Texto_uno">Ningún mensaje fue encontrado</p>
+                <p class="Texto_dos">Ingrese el texto que deseas encriptar o desencriptar.</p>
+           </div>
+           <textarea type="mensaje" class="Resultado" readonly></textarea>
+           <button type="copiar" class="Copiar">Copiar</button>
+         </section>  
+    </main>
+    <footer>
+        <p class="Datos"> REALIZADO POR GABRIEL CONDORI</p>
+        <img src="Assets/github.svg" alt="Logo Github" href="https://github.com/GabyC3" class="Git">
+    </footer>
+
+    <script src="Functions/encriptador.js"></script>
+
+</body>
+</html>
